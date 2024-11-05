@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(image\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+/* inicial */
+.inicial{
+    display: grid;
+    grid-template-rows: 218px 26px 596px;
+}
+.header{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 315px 200px;
+}
+.header p{
+    font-size: 100px;
+    margin: 50px;
+    color: white;
+}
+.header img{
+    margin-top: 20px;
+}
+.slaoqeisso{
+    color: brown;
+    grid-row: 2;
+    z-index: 1;
+}
+.text{
+    grid-row: 3;
+}
+.text p{
+    font-size: 40px;
+    color: white;
+    margin-top: 300px;
+    margin-left: 600px;
+}
+
+/* sobre mim */
+.sobremim{
+    display: grid;
+    grid-template-rows: 192px 21px 340px 80px 240px;
+}
+.nome{
+    font-size: 96px;
+    color: white;
+    margin-left: 550px;
+    grid-row: 1;
+}
+.souprofi{
+    grid-row: 3;
+    margin-left: 300px;
+}
+.souprofi p{
+    font-size: 25px;
+    color: white;
+}
+.imagens{
+    grid-row: 5;
+    margin-left: 100px;
+}
+.back{
+    margin-left: 100px;
+}
+.brequi{
+    margin-left: 100px;
+}
+
+/* habilidades */
+.habilidades{
+    display: grid;
+    grid-template-rows: 168px 26px 30px 584px 235px;
+}
+.hability p{
+    font-size: 96px;
+    color: white;
+    margin-left: 550px;
+}
+.catigorias p{
+    font-size: 30px;
+    color: white;
+    margin-left: 300px;
+}
+.im{
+    grid-row: 5;
+}
+.a{
+    margin-left: 250px;
+}
+.s{
+    margin-left: 200px;
+}
+.d{
+    margin-left: 200px;
+}
+
+/* projetos */
+.projetos{
+    display: grid;
+    grid-template-rows: 168px 26px 30px 584px 235px;
+}
+.project{
+    grid-row: 1;
+}
+.project p{
+    font-size: 96px;
+    color: white;
+    margin-left: 650px;
+}
+.sites{
+    margin-left: 200px;
+    display: grid;
+}
+.ogani{
+    display: grid;
+    grid-template-columns: 475px 300px;
+}
+.ogani p{
+    font-size: 20px;
+    color: white;
+    grid-column: 2;
+}
+.ogani h2{
+    font-size: 64px;
+    color: white;
+    grid-column: 2;
+    margin-top: -150px;
+}
+.elite{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 475px 300px;
+}
+.elite p{
+    font-size: 20px;
+    color: white;
+    grid-column: 2;
+}
+.elite h2{
+    font-size: 64px;
+    color: white;
+    grid-column: 2;
+    margin-top: -150px;
+}
+.elt{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 475px 300px;
+}
+.elt p{
+    font-size: 20px;
+    color: white;
+    grid-column: 2;
+}
+.elt h2{
+    font-size: 64px;
+    color: white;
+    grid-column: 2;
+    margin-top: -150px;
+}
+
+.contato{
+    display: grid;
+    grid-template-rows: 116px 100px 250px;
+    margin-left: 500px;
+}
+.weg{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 200px 50px 200px 50px 200px;
+}
+.titulos{
+    grid-row: 1;
+    margin-left: 150px;
+}
+.titulos p{
+    font-size: 96px;
+    color: white;
+}
+.zapzap{
+    grid-column: 1;
+}
+.zapzap p{
+    color: white;
+    text-align: center;
+}
+.gemeiu{
+    grid-column: 3;
+}
+.gemeiu p{
+    color: white;
+    text-align: center;
+}
+.gitihubi{
+    grid-column: 5;
+}
+.gitihubi p{
+    color: white;
+    text-align: center;
+}
